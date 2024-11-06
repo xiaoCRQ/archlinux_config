@@ -292,7 +292,8 @@ cfdisk /dev/<你的硬盘>
   > 无线网卡
 
   ```cmd
-   nmcli device wifi connect <网络名> <密码>
+   nmcli device wifi connect <网络名> --ask
+   输入密码回车
   ```
 
 - 安装 **Nvidia** 驱动
